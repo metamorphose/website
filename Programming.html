@@ -1,0 +1,78 @@
+<h2>Programmer's Corner</h2>
+Here are some python scripts, modules, and code snippets which could be of interest to fellow python programmers.<br>
+These are all used within Métamorphose, but can be used in other programs or in shell scripts.<br>
+Check each file for licensing info.
+<br>
+<br>
+<h3>accentStrip.py</h3>
+Removes accents and splits linked letters (ligatures) from the full set of Unicode
+Latin characters for ASCII compatability.
+<br><br>
+<b>Usage:</b>
+<pre>
+import accentStrip
+test = <span style='color:red;'>u"¡ŦĦË Ɋṻîčḵ Ƀṝọẁñ Ḟøẍ Ɉṻḿṗş Ṏṽḝŗ Ŧĥệ Ⱡåẕÿ Ğṑð! ¿Cette œuvre là? Große. ॐ"</span>
+
+<i style='color:blue;'># automatically choose best method</i>
+<b style='color:purple;'>print</b> accentStrip.autoConvert(test)
+
+<i style='color:blue;'># full conversion, slow for large strings</i>
+<b style='color:purple;'>print</b> accentStrip.fullConvert(test)
+
+<i style='color:blue;'># no squashing but much faster for large strings such as files</i>
+<b style='color:purple;'>print</b> accentStrip.fastConvert(test)
+</pre>
+
+Input is Unicode, the output is Unicode which will map directly to ASCII.<br>
+Up to you to convert to/from your encoding.
+<br><br>
+<a href='http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose2/Source/operations/accentStrip.py?view=markup'>View</a>
+&nbsp;&nbsp;
+<a href='http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose2/Source/operations/accentStrip.py'>Download</a>
+<br>
+<br>
+<hr width='70%'>
+<br>
+<h3>greek_numb.py</h3>
+Convert whole numbers to Greek numerals. In the case of a negative integer, its absolute value will be used.<br>
+Input can be an integer or a string, output will be in unicode.<br>
+Based on <a href='http://search.cpan.org/perldoc?Convert::Number::Greek'>Greek.pm</a><br>
+<p>
+<b>Example usage in python:</b><br>
+import greek_numb as greek<br>
+greek_number = greek.int2greek(1984, arch_qoppa=True)<br>
+</p>
+
+<p>
+<b>Variables (default values shown):</b><br>
+<ul>
+<li>numbersign = <b>True</b>
+<li>Append the Greek numerical symbol 'ʹ' to number
+</ul><ul>
+<li>upper = <b>False</b>
+<li>Return capital letters
+</ul><ul>
+<li>stigma = <b>True</b>
+<li>Use stigma 'ϛ' rather than sigma-tau 'στ' for 6<br>
+</ul><ul>
+<li>arch_qoppa = <b>False</b>
+<li>Use archaic qoppa 'ϙ' rather than modern 'ϟ' for 90
+</ul>
+</p>
+
+<p>
+<b>Usage from command line:</b><br>
+greek_numb.py --help
+</p>
+
+<p>
+<b>Testing in bash:</b><br>
+    for ((i=0; i<=100; i=i+1)); do ./greek_numb.py $i; done;
+</p>
+
+<a href='http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose2/Source/operations/greek_numb.py?view=markup'>View</a>
+&nbsp;&nbsp;
+<a href='http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose2/Source/operations/greek_numb.py'>Download</a>
+<br>
+<br>
+

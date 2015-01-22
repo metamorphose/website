@@ -1,0 +1,133 @@
+<p class="intro">
+Métamorphose has always been open source and free of charge -
+<a href="http://sourceforge.net/donate/index.php?group_id=146403">donations accepted</a> ;-)<br>
+You are <i>encouraged</i> to share and modify !
+</p>
+
+<p>
+<b class='versionTxt'>Métamorphose 1 : 1.1.2 (stable)</b><br>
+<b class='heading'>Languages :</b>&nbsp;
+<img src="art/flags/ar.png" class="flag" alt="العربية (ar)" title="العربية (ar)">
+<img src="art/flags/de.png" class="flag" alt="Deutsch (de)" title="Deutsch (de)">
+<img src="art/flags/gr.png" class="flag" alt="Ελληνικά (el)" title="Ελληνικά (el)">
+<img src="art/flags/us.png" class="flag" alt="English (en_US)" title="American English (en_US)">
+<img src="art/flags/es.png" class="flag" alt="Español (es)" title="Español (es)">
+<img src="art/flags/fr.png" class="flag" alt="Français (fr)" title="Français (fr)">
+<!--<IMG src="art/flags/il.png" class="flag" alt="עברית (he)" title="עברית (he)">-->
+<img src="art/flags/hu.png" class="flag" alt="Magyar (hu)" title="Magyar (hu)">
+<img src="art/flags/it.png" class="flag" alt="Italiano (it)" title="Italiano (it)">
+<img src="art/flags/ja.png" class="flag" alt="日本語 (ja)" title="日本語 (ja)">
+<img src="art/flags/nl.png" class="flag" alt="Nederlands (nl)" title="Nederlands (nl)">
+<img src="art/flags/pl.png" class="flag" alt="Polski (pl)" title="Polski (pl)">
+<img src="art/flags/br.png" class="flag" alt="Português (pt_BR)" title="Português Brasilero (pt_BR)">
+<img src="art/flags/ru.png" class="flag" alt="Русский (ru)" title="Русский (ru)">
+<img src="art/flags/se.png" class="flag" alt="Svenska (sv)" title="Svenska (sv)">
+<!--<img src="art/flags/sk.png" class="flag" alt="Slovenčina (sk)" title="Slovenčina (sk)">-->
+<img src="art/flags/tr.png" class="flag" alt="Türkçe (tr)" title="Türkçe (tr)">
+<img src="art/flags/cn.png" class="flag" alt="中文 (zh_CN)" title="中文 (zh_CN)">
+</p>
+<ul class="important" style="margin-bottom: 1.7em;">
+  <li>
+   <a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose_1.1.2_setup.exe"
+   onClick="javascript:urchinTracker ('m1exe');"><b>Windows Installer</b></a> - 2000, XP, Vista, 7
+  </li>
+  <li>
+   <a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose_1.1.2-2_all.deb"
+   onClick="javascript:urchinTracker ('m1deb');">deb package</a> - Debian, others
+  </li>
+  <li>
+   <a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose-1.1.2.tar.gz"
+   onClick="javascript:urchinTracker ('m1source');">tar.gz Python Sources</a> - All other systems
+  </li>
+</ul>
+
+<p>
+<b class='versionTxt'>Métamorphose 2 : 0.8.2 (beta)</b><br>
+<b class='heading'>Languages :</b>&nbsp;
+<img src="art/flags/us.png" class="flag" alt="English (en_US)" title="American English (en_US)">
+<img src="art/flags/es.png" class="flag" alt="Español (es)" title="Español (es)">
+<img src="art/flags/fr.png" class="flag" alt="Français (fr)" title="Français (fr)">
+</p>
+<ul class="important" style="margin-bottom: 1.7em;">
+  <li><a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2_0.8.2_setup.exe"
+       onClick="javascript:urchinTracker ('m2exe');"><b>Windows Installer</b></a> - 2000, XP, Vista, 7
+  </li>
+  <li><a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2_0.8.2-1_all.deb"
+       onClick="javascript:urchinTracker ('m2deb');">deb package</a> - Debian, others
+  </li>
+  <li>RPM packages (v. 0.8.0) -
+    <a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2-0.8.0-9.fedora.noarch.rpm"
+           onClick="javascript:urchinTracker ('m2rpm');">Fedora</a> |
+	<a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2-0.8.0-9.mdk.noarch.rpm"
+           onClick="javascript:urchinTracker ('m2rpm');">Mandriva</a> |
+	<a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2-0.8.0-9.suse.noarch.rpm"
+           onClick="javascript:urchinTracker ('m2rpm');">SUSE</a>
+  </li>
+  <li><a href="http://downloads.sourceforge.net/file-folder-ren/metamorphose2_0.8.2.tar.gz"
+       onClick="javascript:urchinTracker ('m2source');">tar.gz Python Sources</a> - All other systems
+  </li>
+</ul>
+
+<p>
+<b class='versionTxt'><img src="art/ubuntu.png" align="bottom" alt="Ubuntu logo"> Ubuntu PPA</b><br/>
+<b class='heading'>Allows automatically updating through Update Manager.</b>
+</p>
+<p>
+The personal package archive (PPA) can be added to your system manually by copying the lines below and adding them to your system's software sources.
+</p>
+<p>
+<script>
+<!--
+function updateSeries(select) {
+  var deb = document.getElementById('series-deb');
+  deb.innerHTML = select.value;
+  var deb_src = document.getElementById('series-deb-src');
+  deb_src.innerHTML = select.value;
+}
+//-->
+</script>
+<form style="display: inline;">
+Display sources.list entries for:
+<select id="field.series" name="field.series" size="1" onchange="updateSeries(this);">
+  <option selected="selected" value="maverick">Maverick (10.10)</option>
+  <option value="lucid">Lucid (10.04)</option>
+  <option value="karmic">Karmic (9.10)</option>
+  <option value="jaunty">Jaunty (9.04)</option>
+  <option value="hardy">Hardy (8.04)</option>
+</select>
+</form>
+<pre id="sources-list-entries" class="wrap">
+deb <a href="http://ppa.launchpad.net/ianare/ppa/ubuntu">http://ppa.launchpad.net/ianare/ppa/ubuntu</a> <span id="series-deb">maverick</span> main
+deb-src <a href="http://ppa.launchpad.net/ianare/ppa/ubuntu">http://ppa.launchpad.net/ianare/ppa/ubuntu</a> <span id="series-deb-src">maverick</span> main
+</pre>
+<p>
+You can also visit the <a href="https://launchpad.net/~ianare/+archive/ppa">PPA page in launchpad</a> for more information.
+</p>
+<p>
+There is an <a href="https://bugs.launchpad.net/ubuntu/+bug/134470">open bug</a> requesting Métamorphose for inclusion in the official Ubuntu repos. If you have a Launchpad account, you can show that this bug <a href="https://bugs.launchpad.net/ubuntu/+bug/134470/+affectsmetoo" title="https://bugs.launchpad.net/ubuntu/+bug/134470/+affectsmetoo" target="_blank">affects you</a>.
+</p>
+<br/>
+
+<p>
+<b class='versionTxt'>Development Versions</b><br/>
+<b class='heading'>Use caution, these may be unstable !</b>
+<ul>
+  <li><a href="http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose2/trunk/.tar.gz?view=tar">Métamorphose 2 source</a> - source tarball, all systems</li>
+  <li><a href="http://file-folder-ren.svn.sourceforge.net/viewvc/file-folder-ren/metamorphose1.tar.gz?view=tar">Métamorphose 1 source</a> - source tarball, all systems</li>
+</ul>
+</p>
+
+<p>
+<b class='versionTxt'>SVN Checkout</b><br/>
+<b class='heading'>Keep up with Métamorphose development.</b>
+<ul>
+  <li><code>svn co https://file-folder-ren.svn.sourceforge.net/svnroot/file-folder-ren/metamorphose2/trunk metamorphose2</code></li>
+  <li><code>svn co https://file-folder-ren.svn.sourceforge.net/svnroot/file-folder-ren/metamorphose1</code></li>
+</ul>
+</p>
+
+<p>
+<b class='heading'><a href="https://sourceforge.net/projects/file-folder-ren/files/">All released versions</a></b>
+</p>
+
+<br/>

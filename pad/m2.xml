@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.02</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.2.30 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description,or PAD for short,is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Ianaré Sévi</Company_Name>
+		<Address_1 />
+		<Address_2 />
+		<City_Town></City_Town>
+		<State_Province />
+		<Zip_Postal_Code />
+		<Country />
+		<Company_WebSite_URL>http://file-folder-ren.sourceforge.net</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Ianaré</Author_First_Name>
+			<Author_Last_Name>Sévi</Author_Last_Name>
+			<Author_Email>metamorphose.renamer@gmail.com</Author_Email>
+			<Contact_First_Name>Ianaré</Contact_First_Name>
+			<Contact_Last_Name>Sévi</Contact_Last_Name>
+			<Contact_Email>metamorphose.renamer@gmail.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>metamorphose.renamer@gmail.com</Sales_Email>
+			<Support_Email>metamorphose.renamer@gmail.com</Support_Email>
+			<General_Email>metamorphose.renamer@gmail.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Métamorphose2 File and Folder Renamer</Program_Name>
+		<Program_Version>0.8.2</Program_Version>
+		<Program_Release_Month>01</Program_Release_Month>
+		<Program_Release_Day>11</Program_Release_Day>
+		<Program_Release_Year>2011</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win2000,WinXP,WinVista,Win7 x32,WinServer</Program_OS_Support>
+		<Program_Language>English,French,Spanish</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::File &amp; Disk Management</Program_Category_Class>
+		<Program_System_Requirements>800 * 600 screen resolution</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>6035268</File_Size_Bytes>
+			<File_Size_K>5888 </File_Size_K>
+			<File_Size_MB>5.75</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>rename,renamer,renaming,file,folder,batch,mass,mp3,id3,exif</Keywords>
+			<Char_Desc_45>Métamorphose : A file and folder renamer</Char_Desc_45>
+			<Char_Desc_80>Métamorphose is a proffessional quality batch renamer for files and folders.</Char_Desc_80>
+			<Char_Desc_250>Métamorphose is a batch renamer, a program to rename large sets of files and folders quickly and easily. With its extensive feature set, flexibility and powerful interface, Métamorphose is a profesional's tool.</Char_Desc_250>
+			<Char_Desc_450>Métamorphose is a batch renamer, a program to rename large sets of files and folders quickly and easily. With its extensive feature set, flexibility and powerful interface, Métamorphose is a profesional's tool. A must-have for those that need to rename many files and/or folders on a regular basis. In addition to general usage renaming, it is very useful for photo and music collections, webmasters, programmers, legal and clerical, etc.</Char_Desc_450>
+			<Char_Desc_2000>Métamorphose is a batch renamer, a program to rename large sets of files and folders quickly and easily.
+
+With its extensive feature set, flexibility and powerful interface, Métamorphose is a profesional's tool. A must-have for those that need to rename many files and/or folders on a regular basis.
+
+In addition to general usage renaming, it is very useful for photo and music collections, webmasters, programmers, legal and clerical, etc.
+
+Main Features:
+* Renames files and folders at the same time.
+* Preview every item to be renamed before comiting changes.
+* Load all files in directory and in subdirectories (recursive renaming).
+* Undo renaming operation in case of mistakes.
+* Rename MP3 files according to their ID3 tags.
+* Save all program settings to file for later use!
+* Renaming operations:
+	 1. Prefix
+	 2. Suffix
+	 3. Set file extension.
+	 4. Replacement,modification,or move by: Character,position,or regular expression.
+	 5. Insertion by: Position or every (number) characters.
+	 6. Length modifications (padding,truncating,or both).
+* Renaming styles: combination of: user text,numbering,id3 tags,date,time.
+* Modifications: UPPERCASE,lowercase,Capitalize first,Title Style,sWAP cASE,'DoRkIfY'
+* Move by position,text,or regular expression.
+* Sequential numbering (enumerating) options:
+	 1. Use integers,alphabetical,or roman numerals
+	 2. Pad with any valid character to any width.(integers only)
+	 3. Control step size,starting number,reset count.
+* Set date and time manually or get from system.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://file-folder-ren.sourceforge.net/</Application_Info_URL>
+			<Application_Order_URL>http://file-folder-ren.sourceforge.net/</Application_Order_URL>
+			<Application_Screenshot_URL>http://file-folder-ren.sourceforge.net/screenshots/M2/windows_1_large.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://file-folder-ren.sourceforge.net/metamorphose32.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://file-folder-ren.sourceforge.net/pad/m2.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://downloads.sourceforge.net/file-folder-ren/metamorphose2_0.8.2_setup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</Distribution_Permissions>
+		<EULA>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

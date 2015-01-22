@@ -1,0 +1,104 @@
+Here are some examples which illustrate some of the things you can do with Métamorphose.
+<br><br>
+Words in <i class='widget'>italic</i> refer to buttons, fields, checkboxes, etc...<br>
+Unless specified otherwise, all the following examples assume you have already selected one or more
+items to be renamed from the <i class='widget'>picker</i> tab.
+<br>
+If you leave <i class='widget'>Auto Preview</i> checked, any changes made will instantly display results.
+Otherwise you will need to press the <i class='widget'>Preview</i> button to display changes.
+
+<br><br><br>
+<b class=heading><i>- Main -</i> panel:</b>
+<p>
+<b>Insert numbering sequence at begining of existing filename:</b><br>
+Check the <i class='widget'>prefix</i> checkbox. Click on the <i class='widget'>numbering</i> button at top of panel.
+You should now have the text ':numb:' in the <i class='widget'>prefix</i> box, and your items will
+have an auto-padded numbering sequence as a prefix.
+</p>
+
+<p>
+<b>Remove all spaces:</b><br>
+Check the <i class='widget'>Search</i> checkbox. Click in the <i class='widget'>Text (blank for all)</i> field, then
+press the spacebar on your keyboard. Leave the <i class='widget'>Replace with (blank to delete):</i> field blank. 
+</p>
+
+<p>
+<b>Remove all non-alphabetical characters:</b><br>
+Check the <i class='widget'>Search</i> checkbox. Click the <i class='widget'>Character sets:</i> radio button. Check
+<i class='widget'>Anything but:</i> and <i class='widget'>[a-z]</i>.
+</p>
+
+<p>
+<b>Convert entire filename to lowercase:</b><br>
+Check the <i class='widget'>Search</i> checkbox. Leave blank the field <i class='widget'>Text (blank for all)</i>.
+Click the <i class='widget'>Modify</i> radio button, then select <i class='widget'>lowercase</i> from the drop-down menu.
+</p>
+
+<p>
+<b>Move first 3 characters of name to end of name:</b><br>
+Check the <i class='widget'>Search</i> checkbox, then the <i class='widget'>Position</I> radio button. On the Position line,
+enter '3' in the <i class='widget'>Length</I> field.
+Now check the <i class='widget'>Move</I> radio button, and use '-1' as the <i class='widget'>Position</I>.
+</p>
+
+<p>
+<b>Rename MP3 file like so: number_title:</b><br>
+Check the <i class='widget'>Search</i> box. Leave blank the field <i class='widget'>Text (blank for all)</i>.
+On the top of the panel, select <i class='widget'>track</i> from the dropdown menu next to the <i class='widget'>id3</i> button. Click the
+<i class='widget'>id3</i> button, the text ':track:' should appear in the <i class='widget'>Replace with (blank to delete):</i> field. Click
+the field, and enter in '_', then select <i class='widget'>title</i> from the id3 dropdown menu, and click the <i class='widget'>id3</i> button again.
+The field should now look like this: ':track:_:title:'. Alternatively you could use numbering instead of getting the track number from the file.
+</p>
+
+
+<br><br>
+<b class=heading><i>Numbering</i> panel:</b>
+<p>
+<b>Count like this: I, III, V, I, III, V ... :</b><br>
+Click on <i class='widget'>Roman Numeral</i>, set the <i class='widget'>Count by:</i> value to 2, and set the <i class='widget'>Reset</i> value to 2.
+</p>
+
+<p>
+<b>Count like this: W, V, U, T, S, R ... :</b><br>
+Click on <i class='widget'>Alphabetical</i>, select <i class='widget'>Uppercase</i>, set starting number to 23, and set <i class='widget'>Count:</i> to <i class='widget'>down</i>
+</p>
+
+
+<br><br>
+<b class=heading>Bit more advanced stuff:</b>
+<p>
+<b>Insert formated date from image (jpg, tiff, jtif) EXIF tag:</b><br>
+Click the <i class='widget'>Date</i> button to insert a date. In the <i class='widget'>Date and Time</i> panel, go to
+<i class='widget'>Use the item's</i> and select <i class='widget'>image EXIF tag</i>. You can then use all the settings available in
+the panel to configure the date's format. If the files do not contain a valid tag, nothing will be inserted.
+</p>
+
+<p>
+<b>Retrieve proper character encoding used in id3 tags:</b><br>
+This will fix problems when you download music and "01 - La mauvaise réputation.mp3" becomes "01 - La mauvaise rÃ©putation.mp3". This will happen
+when the character encodings don't match between the file and the system. Métamorphose supports all common encodings, and a lot of
+rare ones too. For this example however we will continue to assume the files are in latin_1, and the system is in UTF-8.
+<br>
+In <i class='widget'>- Main -</i>, click on <i class='widget'>Search</i>, then <i class='widget'>Position</i>. Now set the first number to 5,
+the other to 255. Next, select <i class='widget'>Replace</i>, select <i class='widget'>title</i> next to the <i class='widget'>ID3</i> button
+and click the button. This will replace everything after the "01 - " with the title of the song as defined in the mp3 file. There might be an
+"id3 encoding error". No matter. In the first panel of the <i class='widget'>Preferences</i> menu
+(<i class='widget'>Edit -> Preferences</i>), select the proper encoding for the file, in this example <i class='widget'>Western Europe</i> would
+be selected and latin_1 would be set.<br>
+Preview runs as soon as <i class='widget'>OK</i> is pressed.
+</p>
+
+<p>
+<b>Renumber .mp3's in a different order (good for mixes):</b><br>
+In <i class='widget'>Picker</i> panel click on <i class='widget'>browse</i>, select folder, and press OK.
+<br>
+Next, go to the <i class='widget'>Main panel</i>, select <i class='widget'>Prefix</i> and click the <i class='widget'>numbering</i> button. Now
+select <i class='widget'>Search</i>, then click on <i class='widget'>Character Sets</i>, and finally choose <i class='widget'>[0-9]</i>.<br>
+This only works if the song titles have no numbers in them. Other way is to select <i class='widget'>Position</i> instead
+of <i class='widget'>Character Sets</i> and set <i class='widget'>Length</i> to however many characters are taken up by the track number,
+and <i class='widget'>Position</i> to where they occur.
+<br>
+Finally go to the <i class='widget'>Numbering panel</i>, set <i class='widget'>Item Sorting</i> to <i class='widget'>Manually</i> :
+this will allow you to change the numbering of items using the <i  class='widget'>arrow buttons</i>.
+CHanges to names will appear in real time.
+</p>
